@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet, FlatList, StatusBar } from 'react-native';
 import Header from '../../components/Header';
-import StatCard from '../../components/StatCard';
-import SearchBar from '../../components/SearchBar';
+import StatCard from '../../components/Card';
+import SearchBar from '../../components/Search';
 import SubjectItem from '../../components/SubjectItem';
-import BottomNav from '../../components/BottomNav';
+import BottomNav from '../../components/Navigator';
 
 const MOCK_SUBJECTS = [
   {
